@@ -13,3 +13,4 @@ However, only supports Unicode with 4 hexadecimal digits.
   * Will [this line](https://github.com/g-s-k/matlab-toml/blob/master/%2Btoml/private/set_nested_field.m#L63) ever run on valid TOML?
 * New features
   * Type coercion in `toml.encode`
+  * Prioritized looking for strings, string-literals, arrays, and tables in `parsevalue`
